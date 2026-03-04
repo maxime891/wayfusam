@@ -9,7 +9,7 @@ const Seo = ({
   article = false, 
   pathname = "/" 
 }) => {
-  const siteUrl = "https://briannabums.com"
+  const siteUrl = "https://wayfusam.com"
   const fullUrl = `${siteUrl}${pathname}`
   const imageUrl = image ? `${siteUrl}${image}` : `${siteUrl}/images/profil.jpg`
 
@@ -19,7 +19,7 @@ const Seo = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content="Brianna Bums" />
+      <meta name="author" content="Wayfu Sam" />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       <meta name="googlebot" content="index, follow" />
       <link rel="canonical" href={fullUrl} />
@@ -30,10 +30,10 @@ const Seo = ({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={fullUrl} />
       <meta property="og:image" content={imageUrl} />
-      <meta property="og:image:alt" content="Brianna Bums - Premium Content Creator" />
+      <meta property="og:image:alt" content="Wayfu Sam - Premium Content Creator" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:site_name" content="Brianna Bums" />
+      <meta property="og:site_name" content="Wayfu Sam" />
       <meta property="og:locale" content="en_US" />
       
       {/* Twitter Card Meta Tags */}
@@ -41,14 +41,14 @@ const Seo = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={imageUrl} />
-      <meta name="twitter:image:alt" content="Brianna Bums - Premium Content Creator" />
-      <meta name="twitter:creator" content="@briannabums" />
+      <meta name="twitter:image:alt" content="Wayfu Sam - Premium Content Creator" />
+      <meta name="twitter:creator" content="@wayfusam" />
       
       {/* Additional SEO Meta Tags */}
       <meta name="theme-color" content="#4A90E2" />
       <meta name="msapplication-TileColor" content="#4A90E2" />
-      <meta name="application-name" content="Brianna Bums" />
-      <meta name="apple-mobile-web-app-title" content="Brianna Bums" />
+      <meta name="application-name" content="Wayfu Sam" />
+      <meta name="apple-mobile-web-app-title" content="Wayfu Sam" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="mobile-web-app-capable" content="yes" />
@@ -86,17 +86,17 @@ const Seo = ({
           "image": imageUrl,
           "mainEntity": {
             "@type": "Person",
-            "name": "Brianna Bums",
+            "name": "Wayfu Sam",
             "description": "Premium content creator offering exclusive subscription content",
             "image": imageUrl,
             "url": fullUrl,
             "sameAs": [
-              "https://onlyfans.com/briannabums"
+              "https://onlyfans.com/wayfusam"
             ]
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Brianna Bums",
+            "name": "Wayfu Sam",
             "logo": {
               "@type": "ImageObject",
               "url": imageUrl
